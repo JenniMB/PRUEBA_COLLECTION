@@ -51,12 +51,34 @@
 			"response": []
 		},
 		{
-			"name": "https://api.datos.gob.mx/v1/calidadAire12",
+			"name": "https://api.datos.gob.mx/v1/calidadAire",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.datos.gob.mx/v1/calidadAire12",
+					"raw": "https://api.datos.gob.mx/v1/calidadAire",
+					"protocol": "https",
+					"host": [
+						"api",
+						"datos",
+						"gob",
+						"mx"
+					],
+					"path": [
+						"v1",
+						"calidadAire"
+					]
+				}
+			},
+			"response": []
+		}
+		{
+			"name": "https://api.datos.gob.mx/v1/data-core",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.datos.gob.mx/v1/data-core",
 					"protocol": "https",
 					"host": [
 						"api",
