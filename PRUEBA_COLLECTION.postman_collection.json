@@ -29,12 +29,12 @@
 			"response": []
 		},
 		{
-			"name": "https://api.datos.gob.mx/v2/Records",
+			"name": "https://api.datos.gob.mx/v1/gobmx.facts",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.datos.gob.mx/v2/Records",
+					"raw": "https://api.datos.gob.mx/v1/gobmx.facts",
 					"protocol": "https",
 					"host": [
 						"api",
