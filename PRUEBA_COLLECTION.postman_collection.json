@@ -51,12 +51,12 @@
 			"response": []
 		},
 		{
-			"name": "https://api.datos.gob.mx/v1/calidadAire",
+			"name": "https://api.datos.gob.mx/v1/calidadAire12",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.datos.gob.mx/v1/calidadAire",
+					"raw": "https://api.datos.gob.mx/v1/calidadAire12",
 					"protocol": "https",
 					"host": [
 						"api",
