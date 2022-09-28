@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "493f09f6-9fee-435c-a596-fc7c12fe955b",
+		"name": "PRUEBA_COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23561730"
+	},
+	"item": [
+		{
+			"name": "https://api.datos.gob.mx/v1/api-catalog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.datos.gob.mx/v1/api-catalog",
+					"protocol": "https",
+					"host": [
+						"api",
+						"datos",
+						"gob",
+						"mx"
+					],
+					"path": [
+						"v1",
+						"api-catalog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.datos.gob.mx/v2/Records",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.datos.gob.mx/v2/Records",
+					"protocol": "https",
+					"host": [
+						"api",
+						"datos",
+						"gob",
+						"mx"
+					],
+					"path": [
+						"v2",
+						"Records"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.datos.gob.mx/v1/calidadAire",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.datos.gob.mx/v1/calidadAire",
+					"protocol": "https",
+					"host": [
+						"api",
+						"datos",
+						"gob",
+						"mx"
+					],
+					"path": [
+						"v1",
+						"calidadAire"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
